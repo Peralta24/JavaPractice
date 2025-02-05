@@ -89,7 +89,7 @@ console.log(texto8.replaceAll("Cadenas","cadeninas"))
 
 //Division de codenas de JavaScript
 
-console.log(texto8.split(","))
-console.log(texto8.split(" "))
-console.log(texto8.split("|") )
-console.log(texto8.split(""))
+console.log(texto8.split(",")) //matriz separada por comas
+console.log(texto8.split(" "))//matriz separada por espacion
+console.log(texto8.split("|") )//mastriz separada
+console.log(texto8.split(""))// te muestra todos los caracteres 

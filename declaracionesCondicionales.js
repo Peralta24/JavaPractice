@@ -36,3 +36,32 @@ else if (hour>=12 && hour < 18)
     console.log("Good afternoon!")
 else 
     console.log("Good evening!")
+
+//if con prompt 
+
+let permiso = confirm('Debes ser mayor de edad para accedr')
+
+let edad = prompt('Cual es tu edad')
+if (edad<18) {
+    alert(' No puedes acceder')
+} else {
+    alert('Puedes acceder ')
+}
+
+//Boton 
+
+var btnA = document.querySelector(".teamo")
+
+btnA.addEventListener("click",teamo)
+
+ function teamo() {
+    var nombre = prompt("Ingresa tu nombre")
+    if (nombre == 'Xana') {
+        alert( `Te amo mi vida ${nombre}`)
+    } else {
+        alert("Quien gonorrea eres")
+    }
+    
+ }
+
+
